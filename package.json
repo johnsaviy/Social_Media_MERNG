@@ -1,0 +1,20 @@
+{
+  "name": "social_media_merng",
+  "version": "1.0.0",
+  "description": "A social media App built with MERN-Graphl ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "graphql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.8.3"
+  }
+}
