@@ -4,7 +4,7 @@
   "description": "A social media App built with MERN-Graphl ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "keywords": [
     "Node",
@@ -14,8 +14,13 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.11.1",
+    "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
